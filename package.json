@@ -1,0 +1,12 @@
+{
+  "name": "blog-website",
+  "version": "1.0.0",
+  "description": "A simple and responsive Blog management system built with React.js. This project combines locally stored blogs with news fetched from an external API, allowing users to create, view, edit, and delete blog posts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
