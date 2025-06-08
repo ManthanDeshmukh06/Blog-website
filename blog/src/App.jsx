@@ -17,7 +17,9 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    fetch("/news?q=tesla&from=2025-05-08&sortBy=publishedAt")
+    fetch(
+      "https://newsapi.org/v2/everything?q=tesla&from=2025-05-08&sortBy=publishedAt&apiKey=ec140e102f37434690d63f8e19c8382e"
+    )
       .then((res) => res.json())
       .then((data) => {
         if (data.articles) {
